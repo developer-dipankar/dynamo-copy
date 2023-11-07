@@ -1,0 +1,17 @@
+{
+  "name": "dynamo-copy",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dynamodb copy", "dynamo-copy", "copy dynamodb", "AWS dynamodb sync", "AWS", "dynamodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1297.0"
+  }
+}
