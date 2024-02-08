@@ -121,8 +121,8 @@ const syncTable = async ({
       });
     }
     count = count + items.length;
-    console.log('LastEvaluatedKey', params.ExclusiveStartKey, i, count);
     if (params && params.ExclusiveStartKey) {
+      console.log('LastEvaluatedKey', params.ExclusiveStartKey, i, count);
       i++;
     } else {
       i = -1;
